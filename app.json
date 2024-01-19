@@ -1,0 +1,54 @@
+{
+	"name": "تنصيب 𓀛 الفراعنة𓀛",
+	"description": "تنصيب بوت تليثون عربي بكود بايروجرام مقدم من سورس 𓀛 الفراعنة𓀛!",
+	"logo": "https://graph.org/file/9e90986cd4964303776a8.jpg",
+	"keywords": [
+		"telegram",
+		"bot",
+		"python",
+		"telethon"
+	],
+	"repository": "https://github.com/modymesourceze/develop",
+    "env": {
+        "TG_BOT_TOKEN": {
+            "description": "Your Telegram Bot Token from @BotFather",
+            "value": ""
+        },
+        "API_HASH": {
+            "description": "Your API Hash from my.telegram.org",
+            "value": ""
+        },
+        "APP_ID": {
+            "description": "Your APP ID from my.telegram.org",
+            "value": ""
+        },
+        "USER_NAME": {
+            "description": "Your Name In Telegram",
+            "value": ""            
+        },
+        "SESSION": {
+            "description": "Your String Session Pyrogram V2",
+            "value": ""            
+	},
+        "BOT_USER": {
+            "description": "Your Bot User Without @",
+            "value": ""  
+	},
+        "VIA_USER": {
+            "description": "Put Your Bot User Without @ After user : ",
+            "value": "user : " 
+	},
+        "MENTION": {
+            "description": "Put Your ID On Telegram Or Your Groub ID Without -100",
+            "value": ""           		
+	   }
+	},
+	"buildpacks": [
+		{
+			"url": "heroku/python"
+		}
+	]
+}
+
+
+
